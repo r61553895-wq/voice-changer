@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Voice Changer</string>
+    <string name="notif_channel">Voice Engine</string>
+    <string name="notif_text">Изменение голоса активно</string>
+</resources>

@@ -1,0 +1,5 @@
+-keep class com.voicechanger.app.audio_engine.** { *; }
+-keep class com.voicechanger.app.ai_model.** { *; }
+-keep class ai.onnxruntime.** { *; }
+-keep class org.tensorflow.lite.** { *; }
+-dontwarn org.tensorflow.**
