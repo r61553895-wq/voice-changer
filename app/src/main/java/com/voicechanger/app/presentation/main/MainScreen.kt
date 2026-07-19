@@ -46,6 +46,10 @@ fun MainScreen(
 ) {
     val state by viewModel.state.collectAsState()
 
+    androidx.compose.runtime.LaunchedEffect(hasMicPermission) {
+        viewModel.onMicPermissionResult(hasMicPermission)
+    }
+
     Scaffold(containerColor = BgDark) { padding ->
         Column(
             modifier = Modifier
